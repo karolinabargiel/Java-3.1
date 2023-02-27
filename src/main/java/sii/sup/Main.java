@@ -18,8 +18,8 @@ public class Main {
             }
         };
         List<Mobile> list = List.of(truck1, truck2, truck3, boat1, boat2, human1, human2);
-        var randomObject = processList(list);
-        randomObject.move();
+        var randomListObject = processList(list);
+        randomListObject.move();
         print(() -> System.out.println("I cannot run at all"));
         introduce(name -> System.out.println("Hello " + name));
 
